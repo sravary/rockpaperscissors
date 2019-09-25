@@ -18,12 +18,34 @@ section {
 }
 
 
+/* Rock Paper Scissors Flicker Effect*/
+.flick-rock {
+  -webkit-animation: flicker 2s infinite;
+}
+@-webkit-keyframes flicker
+{
+  0% {opacity:0;}
+  9% {opacity:0.3;}
+  10% {opacity:.5;}
+  13% {opacity:0;}
+  20% {opacity:.5;}
+  25% {opacity:1;}
+}.flick-paper {
+  -webkit-animation: flicker 3s infinite;
+}.flick-scissors {
+  -webkit-animation: flicker 1.5s infinite;
+}
+
+
+
+
 .score {
   padding-top: 25px;
   margin-bottom: 130px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  transition: opacity 0.5s ease 0.5s;
 }
 .score h2 {
   font-size: 40px;
