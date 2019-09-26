@@ -2,6 +2,11 @@ const game = () => {
   let pScore = 0;
   let cScore = 0;
 
+  let playerName = prompt("Welcome Human! Are you prepared to lose against a Supreme Bot? PLEASE ENTER YOUR NAME:", "Player")
+  if(playerName != null) {
+    document.getElementById("playername").textContent = playerName;
+  };
+
 //Start the game
   const startGame = () => {
     const playBtn = document.querySelector(".intro button");
