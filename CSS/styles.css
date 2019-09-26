@@ -72,9 +72,9 @@ section {
   text-align: center;
 }
 .intro button, .match button {
-  width: 200px;
+  width: 230px;
   height: 70px;
-  border: 3px solid #e6e6e6;
+  border: 2px solid #e6e6e6;
   border-radius: 5px;
   background: none;
   color: #e6e6e6;
