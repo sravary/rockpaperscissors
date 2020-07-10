@@ -1,5 +1,5 @@
-Going to make a simple implementation of grade-school classic “rock paper scissors”.
+Classic “rock paper scissors” game
 
-Here is a rough work:
+---------------------------------
 https://fistfivepeace.netlify.com
 
