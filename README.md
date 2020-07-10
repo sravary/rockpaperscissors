@@ -1,4 +1,4 @@
-Classic “rock paper scissors” game
+ROCK / PAPER / SCISSORS... choose wisely!
 
 ---------------------------------
 https://fistfivepeace.netlify.com
